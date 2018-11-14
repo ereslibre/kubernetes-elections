@@ -1,0 +1,18 @@
+apiVersion: elections.containersevent.suse.com/v1beta1
+kind: Election
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: containers-day-madrid-2018
+spec:
+  options:
+    Do you use containers?:
+      - In development
+      - In development and production
+      - 'No'
+    Do you use any container orchestrator?:
+      - 'Yes''
+      - 'No'
+    Do you specifically use Kubernetes?:
+      - 'Yes'
+      - 'No'

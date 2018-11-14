@@ -1,0 +1,3 @@
+version: "1"
+domain: containersevent.suse.com
+repo: github.com/ereslibre/kubernetes-elections

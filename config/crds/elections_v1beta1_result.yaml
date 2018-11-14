@@ -1,0 +1,40 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  creationTimestamp: null
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: results.elections.containersevent.suse.com
+spec:
+  group: elections.containersevent.suse.com
+  names:
+    kind: Result
+    plural: results
+  scope: Namespaced
+  validation:
+    openAPIV3Schema:
+      properties:
+        apiVersion:
+          type: string
+        kind:
+          type: string
+        metadata:
+          type: object
+        spec:
+          properties:
+            ballots:
+              items:
+                type: string
+              type: array
+            results:
+              type: object
+          type: object
+        status:
+          type: object
+  version: v1beta1
+status:
+  acceptedNames:
+    kind: ""
+    plural: ""
+  conditions: []
+  storedVersions: []

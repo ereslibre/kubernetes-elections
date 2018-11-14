@@ -1,0 +1,12 @@
+apiVersion: elections.containersevent.suse.com/v1beta1
+kind: Ballot
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: ballot-sample-1
+spec:
+  election: containers-day-madrid-2018
+  answers:
+    ¿Usas contenedores?: En desarrollo y producción
+    ¿Usas algún orquestador de contenedores?: Sí
+    ¿Usas Kubernetes específicamente?: Sí
