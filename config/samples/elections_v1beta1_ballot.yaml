@@ -7,6 +7,6 @@ metadata:
 spec:
   election: containers-day-madrid-2018
   answers:
-    ¿Usas contenedores?: En desarrollo y producción
-    ¿Usas algún orquestador de contenedores?: Sí
-    ¿Usas Kubernetes específicamente?: Sí
+    Do you use containers?: In development and production
+    Do you use any container orchestrator?: 'Yes'
+    Do you specifically use Kubernetes?: 'Yes'

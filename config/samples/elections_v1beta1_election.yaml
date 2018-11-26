@@ -11,7 +11,7 @@ spec:
       - In development and production
       - 'No'
     Do you use any container orchestrator?:
-      - 'Yes''
+      - 'Yes'
       - 'No'
     Do you specifically use Kubernetes?:
       - 'Yes'
